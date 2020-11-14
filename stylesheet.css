@@ -18,17 +18,18 @@ h1 {
     display: flex;
     justify-content: center;
 }
-nav ul {
+
+.nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: -5.7rem;
     margin-bottom: 0.3rem;
 }
-nav li {
+.nav li {
     display: block;
 }
-li a {
+.li a {
     color: black;
     text-decoration: none;
 }
@@ -38,15 +39,23 @@ li a {
     padding-top: -40%;
 }
 
-.carousel-control-prev-icon {
-    color: fuchsia;
+.carousel{
+    display: block;
+    block-size: 75%;
+    padding-top: 5rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.carousel-control-next-icon {
-    color: fuchsia;
-}
-
-.carousel-item {
-    display: flex;
-    max-width: 500px;
+.my-caption{
+    display: block;
+    background-color:#3f3a36;
+    font-family: 'Cormorant', serif;
+    border-top: 5rem;
+    padding-bottom: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+   
 }
