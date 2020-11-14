@@ -1,11 +1,11 @@
 body {
     background-color: #3f3a36;
     font-family: 'Cormorant', serif;
+    overflow-x: hidden;
 }
 
 .over_nav {
     display: flex;
-    flex-direction: row;
 }
 
 .moon {
@@ -23,6 +23,7 @@ body {
 h1 {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 nav ul {
@@ -44,8 +45,8 @@ li a {
 
 .line2 {
     height: 2rem;
-    margin-left: 4.375rem;
-    margin-top: -12.5%;
+    margin-left: 4.5rem;
+    margin-top: -9.6rem;
 }
 
 .carousel{
