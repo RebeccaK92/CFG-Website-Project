@@ -1,0 +1,47 @@
+body {
+    background-color: #3f3a36;
+    font-family: 'Cormorant', serif;
+}
+.over_nav {
+    display: flex;
+    flex-direction: row;
+}
+.moon {
+    height: 8rem;
+    width: 20rem;
+}
+.line1 {
+    height: 2rem;
+    padding-bottom: -0.25rem;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -5.7rem;
+    margin-bottom: 0.3rem;
+}
+nav li {
+    display: block;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+.line2 {
+    height: 32px;
+    margin-left: 70px;
+    padding-top: -40%;
+}
+
+.carousel-control-prev-icon {
+    color: fuchsia;
+}
+
+.carousel-control-next-icon {
+    color: fuchsia;
+}
