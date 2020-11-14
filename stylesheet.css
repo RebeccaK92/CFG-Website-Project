@@ -59,3 +59,36 @@ h1 {
     margin-bottom: auto;
    
 }
+
+h3 {
+    padding-top: 2rem;
+    color: gainsboro;
+    padding-left: 5rem;
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+label{
+    color: gainsboro;
+    font-size: larger;
+    padding-right: 3rem;
+}
+
+textarea{
+    max-width: 50rem;
+}
+
+.btn-primary {
+    background-color:whitesmoke;
+    color: rgb(7, 1, 1);
+}
+
+.btn:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
