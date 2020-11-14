@@ -2,41 +2,50 @@ body {
     background-color: #3f3a36;
     font-family: 'Cormorant', serif;
 }
+
 .over_nav {
     display: flex;
     flex-direction: row;
 }
+
 .moon {
     height: 8rem;
     width: 20rem;
+    margin-left: 1%;
+    margin-top: 1%;
 }
+
 .line1 {
     height: 2rem;
-    padding-bottom: -0.25rem;
+    margin-top: 1%;
 }
+
 h1 {
     display: flex;
     justify-content: center;
 }
 
-.nav ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: -5.7rem;
     margin-bottom: 0.3rem;
 }
-.nav li {
+
+nav li {
     display: block;
 }
-.li a {
+
+li a {
     color: black;
     text-decoration: none;
 }
+
 .line2 {
-    height: 32px;
-    margin-left: 70px;
-    padding-top: -40%;
+    height: 2rem;
+    margin-left: 4.375rem;
+    margin-top: -12.5%;
 }
 
 .carousel{
