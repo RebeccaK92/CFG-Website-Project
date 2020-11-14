@@ -11,6 +11,8 @@ body {
 .moon {
     height: 8rem;
     width: 20rem;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .line1 {
