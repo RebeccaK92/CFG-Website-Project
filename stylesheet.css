@@ -45,3 +45,8 @@ li a {
 .carousel-control-next-icon {
     color: fuchsia;
 }
+
+.carousel-item {
+    display: flex;
+    max-width: 500px;
+}
