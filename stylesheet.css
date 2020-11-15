@@ -172,3 +172,18 @@ textarea{
 .carousel-indicators{
     margin-bottom: 12rem;
 }
+
+.col {
+    display:flex;
+    justify-content: center;
+    color:whitesmoke;
+
+}
+.card {
+    background-color:  #3f3a36;
+    border-color: #3f3a36;
+}
+
+.card-title {
+    text-align:center;
+}
