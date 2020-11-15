@@ -89,7 +89,7 @@ h2 {
 h3 {
     padding-top: 2rem;
     color: gainsboro;
-    padding-left: 5rem;
+    padding-left: 20rem;
 }
 
 form{
@@ -97,6 +97,7 @@ form{
     margin-left: auto;
     margin-left: auto;
     width: 90%;
+    padding-left: 20rem;
 }
 
 label{
@@ -117,4 +118,21 @@ textarea{
 .btn:hover {
     background-color: grey;
     color: whitesmoke;
+}
+
+.btn-ins {
+    margin-left: 32rem;
+    background-color:whitesmoke;
+    height: 3rem;
+    width: 3rem;
+}
+
+.fab {
+    margin-left: auto;
+    margin-right: auto:
+
+}
+
+.form-group {
+    font-size: 1.5rem;
 }
