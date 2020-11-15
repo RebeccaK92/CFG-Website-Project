@@ -86,24 +86,25 @@ h2 {
    
 }
 
-h3 {
-    padding-top: 2rem;
-    color: gainsboro;
-    padding-left: 20rem;
-}
 
-form{
+.form{
     display: block;
-    margin-left: auto;
-    margin-left: auto;
-    width: 90%;
-    padding-left: 20rem;
+    align-content: center;
+   
 }
 
 label{
     color: gainsboro;
     font-size: larger;
     padding-right: 3rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+input{
+    display: inline-block;
+    margin-left: 4rem;
+    border-radius: 0.25rem;
 }
 
 textarea{
@@ -113,6 +114,9 @@ textarea{
 .btn-primary {
     background-color:whitesmoke;
     color: rgb(7, 1, 1);
+    margin-left: 11rem;
+    font-size: larger;
+    
 }
 
 .btn:hover {
@@ -121,19 +125,48 @@ textarea{
 }
 
 .btn-ins {
-    margin-left: 32rem;
+    
     background-color:whitesmoke;
     height: 3rem;
     width: 3rem;
 }
 
 .fab {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin-left: 0.25rem;
     color: black;
 
 }
 
 .form-group {
     font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.exampleFormControlinput1 {
+    display: flex;
+    padding-right: 5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
