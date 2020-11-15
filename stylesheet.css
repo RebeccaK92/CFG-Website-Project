@@ -79,10 +79,9 @@ h2 {
     display: block;
     background-color:#3f3a36;
     font-family: 'Cormorant', serif;
-    border-top: 5rem;
+    border-top: 1rem;
     padding-bottom: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 12rem;
    
 }
 
@@ -169,4 +168,8 @@ textarea{
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.carousel-indicators{
+    margin-bottom: 12rem;
 }
