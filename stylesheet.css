@@ -1,7 +1,55 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #3f3a36;
+        font-family: 'Cormorant', serif;
+    }
+    .over_nav {
+        display: flex;
+        overflow: hidden;
+        margin-right: 1rem;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+    .line2 {
+        height: 2rem;
+        overflow: hidden;
+        margin-left: 4.5rem;
+        padding-bottom: 1.8rem;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 20pt;
+        font-weight: bolder; 
+        margin-bottom: 1rem;
+    }
+    h2 {
+        display: flex;
+        color: #e8e8e8;
+        justify-content: center;
+        letter-spacing: 0.5rem;
+        font-size: 15pt;
+        font-weight: lighter;
+        
+    }
+
+  
+
+
+
+}
+
+
+
 body {
     background-color: #3f3a36;
     font-family: 'Cormorant', serif;
-    /* overflow-x: hidden; */
 }
 
 .over_nav {
@@ -20,7 +68,6 @@ body {
 .line1 {
     height: 2rem;
     margin-top: 1%;
-
 }
 
 h1 {
@@ -174,6 +221,18 @@ textarea{
     margin-bottom: 12rem;
 }
 
+.contactline {
+    height: 2rem;
+    overflow: hidden;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+
+}
+
+.container {
+    margin-bottom: 4rem;
+}
+
 .col {
     display:flex;
     justify-content: center;
@@ -193,13 +252,25 @@ textarea{
 
 .card-text {
     text-align: center;
+    letter-spacing: 0.5rem;
 }
 
 .title {
-    color: black; 
-    text-decoration: underline;
+    color: #d2d2d4; 
     font-size: 1.1rem;
     margin-top: 0.4rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: -0.4rem;
     text-align: center;
+    letter-spacing: 0.05rem;
+}
+
+label {
+    font-size: 15pt;
+    letter-spacing: 0.5rem;
+}
+
+.container2 {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
 }
