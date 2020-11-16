@@ -220,6 +220,18 @@ textarea{
     margin-bottom: 12rem;
 }
 
+.contactline {
+    height: 2rem;
+    overflow: hidden;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+
+}
+
+.container {
+    margin-bottom: 4rem;
+}
+
 .col {
     display:flex;
     justify-content: center;
@@ -233,6 +245,7 @@ textarea{
 
 .card-title {
     text-align:center;
+    letter-spacing: 0.5rem;
 }
 
 .title {
@@ -240,6 +253,17 @@ textarea{
     text-decoration: underline;
     font-size: 1.1rem;
     margin-top: 0.4rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: -0.4rem;
     text-align: center;
+}
+
+label {
+    font-size: 15pt;
+    letter-spacing: 0.5rem;
+}
+
+.container2 {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
 }
