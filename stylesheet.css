@@ -249,12 +249,12 @@ textarea{
 }
 
 .title {
-    color: black; 
-    text-decoration: underline;
+    color: #d2d2d4; 
     font-size: 1.1rem;
     margin-top: 0.4rem;
     margin-bottom: -0.4rem;
     text-align: center;
+    letter-spacing: 0.05rem;
 }
 
 label {
