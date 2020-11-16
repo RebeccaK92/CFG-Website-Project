@@ -94,14 +94,14 @@ h2 {
 label{
     color: gainsboro;
     font-size: larger;
-    padding-right: 3rem;
+    padding-right: 5rem;
     display: inline-block;
     margin-bottom: .5rem;
 }
 
 input{
     display: inline-block;
-    margin-left: 4rem;
+    margin-left: 4.1rem;
     border-radius: 0.25rem;
 }
 
@@ -112,10 +112,11 @@ textarea{
 .btn-primary {
     background-color:whitesmoke;
     color: rgb(7, 1, 1);
-    margin-left: 11rem;
+    margin-left: 13.5rem;
     font-size: larger;
     
 }
+
 
 .btn:hover {
     background-color: grey;
@@ -186,6 +187,12 @@ textarea{
 
 .card-title {
     text-align:center;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .title {
