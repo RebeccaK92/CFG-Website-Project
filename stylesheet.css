@@ -132,34 +132,35 @@ h2 {
 }
 
 
-.form{
-    display: block;
-    align-content: center;
-   
-}
+
 
 label{
     color: gainsboro;
-    font-size: larger;
     padding-right: 5rem;
     display: inline-block;
     margin-bottom: .5rem;
+    font-size: 18pt;
+    letter-spacing: 0.5rem;
 }
-
+.form {
+    display: flex;
+    justify-content: center;
+    
+}
 input{
     display: inline-block;
-    margin-left: 4.1rem;
+    margin-left: 6rem;
     border-radius: 0.25rem;
 }
 
-textarea{
+.message{
     max-width: 50rem;
 }
 
 .btn-primary {
     background-color:whitesmoke;
     color: rgb(7, 1, 1);
-    margin-left: 13.5rem;
+    margin-left: 16.5rem;
     font-size: larger;
     
 }
@@ -194,11 +195,6 @@ textarea{
 .social {
     display: flex;
     justify-content: center;
-}
-
-.exampleFormControlinput1 {
-    display: flex;
-    padding-right: 5rem;
 }
 
 .form-control {
@@ -251,8 +247,8 @@ textarea{
 }
 
 .card-text {
-    text-align: center;
-    letter-spacing: 0.5rem;
+    text-align: left;
+    letter-spacing: 0.1rem;
 }
 
 .title {
@@ -264,13 +260,3 @@ textarea{
     letter-spacing: 0.05rem;
 }
 
-label {
-    font-size: 15pt;
-    letter-spacing: 0.5rem;
-}
-
-.container2 {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    margin-left: 3rem;
-}
